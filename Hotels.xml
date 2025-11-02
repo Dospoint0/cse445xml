@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Hotels.xml
+  Valid XML instance for CSE 445 Assignment 4
+  Contains 11 hotels in Riyadh, Saudi Arabia
+  Conforms to Hotels.xsd schema
+-->
+
+<Hotels>
+  <Hotel id="H001" Rating="4.5">
+    <Name>Four Seasons Hotel Riyadh</Name>
+    <Phone>+966 11 211 5888</Phone>
+    <Phone>+966 11 211 5000</Phone>
+    <Address>
+      <Number>2239</Number>
+      <Street>King Fahd Road</Street>
+      <City>Riyadh</City>
+      <State>Riyadh Province</State>
+      <Zip>12264</Zip>
+      <NearestAirport>King Khalid International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel id="H002" Rating="4.6">
+    <Name>The Ritz-Carlton Riyadh</Name>
+    <Phone>+966 11 802 8020</Phone>
+    <Address>
+      <Number>Al Hada</Number>
+      <Street>Mecca Road</Street>
+      <City>Riyadh</City>
+      <State>Riyadh Province</State>
+      <Zip>11493</Zip>
+      <NearestAirport>King Khalid International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel id="H003">
+    <Name>Hilton Riyadh Hotel & Residences</Name>
+    <Phone>+966 11 234 6666</Phone>
+    <Address>
+      <Number>6623</Number>
+      <Street>Eastern Ring Rd</Street>
+      <City>Riyadh</City>
+      <State>Riyadh Province</State>
+      <Zip>13211</Zip>
+      <NearestAirport>King Khalid International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel id="H004" Rating="4.4">
+    <Name>Hyatt Regency Riyadh Olaya</Name>
+    <Phone>+966 11 288 1234</Phone>
+    <Phone>+966 11 288 1111</Phone>
+    <Address>
+      <Number>Olaya</Number>
+      <Street>King Fahd Branch Road</Street>
+      <City>Riyadh</City>
+      <State>Riyadh Province</State>
+      <Zip>12212</Zip>
+      <NearestAirport>King Khalid International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel id="H005" Rating="4.2">
+    <Name>Fairmont Riyadh</Name>
+    <Phone>+966 11 826 0000</Phone>
+    <Address>
+      <Number>Airport Road</Number>
+      <Street>Business Gate</Street>
+      <City>Riyadh</City>
+      <State>Riyadh Province</State>
+      <Zip>11564</Zip>
+      <NearestAirport>King Khalid International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel id="H006" Rating="4.3">
+    <Name>Marriott Riyadh Diplomatic Quarter</Name>
+    <Phone>+966 11 835 3000</Phone>
+    <Address>
+      <Number>6781</Number>
+      <Street>Diplomatic Quarter</Street>
+      <City>Riyadh</City>
+      <State>Riyadh Province</State>
+      <Zip>12512</Zip>
+      <NearestAirport>King Khalid International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel id="H007">
+    <Name>InterContinental Riyadh</Name>
+    <Phone>+966 11 465 5000</Phone>
+    <Address>
+      <Number>King Saud Road</Number>
+      <Street>Al Wazarat District</Street>
+      <City>Riyadh</City>
+      <State>Riyadh Province</State>
+      <Zip>11484</Zip>
+      <NearestAirport>King Khalid International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel id="H008" Rating="4.1">
+    <Name>Fraser Suites Riyadh</Name>
+    <Phone>+966 11 292 6666</Phone>
+    <Address>
+      <Number>Intersection Olaya</Number>
+      <Street>Khuraish Street</Street>
+      <City>Riyadh</City>
+      <State>Riyadh Province</State>
+      <Zip>12241</Zip>
+      <NearestAirport>King Khalid International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel id="H009" Rating="4.0">
+    <Name>Narcissus Hotel and Residence</Name>
+    <Phone>+966 11 294 6300</Phone>
+    <Address>
+      <Number>Olaya Street</Number>
+      <Street>Corner of Tahlia</Street>
+      <City>Riyadh</City>
+      <State>Riyadh Province</State>
+      <Zip>12212</Zip>
+      <NearestAirport>King Khalid International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel id="H010">
+    <Name>Crowne Plaza Riyadh RDC Hotel & Convention Center</Name>
+    <Phone>+966 11 813 1313</Phone>
+    <Phone>+966 11 813 1414</Phone>
+    <Address>
+      <Number>Imam Saud Ibn Abdulaziz Road</Number>
+      <Street>Al Raed District</Street>
+      <City>Riyadh</City>
+      <State>Riyadh Province</State>
+      <Zip>12382</Zip>
+      <NearestAirport>King Khalid International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel id="H011" Rating="4.7">
+    <Name>Voco Riyadh</Name>
+    <Phone>+966 11 457 9999</Phone>
+    <Address>
+      <Number>King Fahd Road</Number>
+      <Street>Next to Ministry of Interior</Street>
+      <City>Riyadh</City>
+      <State>Riyadh Province</State>
+      <Zip>11461</Zip>
+      <NearestAirport>King Khalid International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+</Hotels>

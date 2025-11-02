@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  HotelsErrors.xml
+  Fault-injected XML instance for CSE 445 Assignment 4
+  Contains all 5 required schema/structure violations
+-->
+
+<!-- (1) Root element name is incorrect -->
+<Hotel>
+  <!-- (2) Missing required 'id' attribute -->
+  <Hotel Rating="4.5">
+    <Name>Four Seasons Hotel Riyadh</Name>
+    <Phone>+966 11 211 5888</Phone>
+    <Phone>+966 11 211 5000</Phone>
+    <Address>
+      <Number>2239</Number>
+      <Street>King Fahd Road</Street>
+      <City>Riyadh</City>
+      <State>Riyadh Province</State>
+      <Zip>12264</Zip>
+      <NearestAirport>King Khalid International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel id="H002" Rating="4.6">
+    <!-- (5) Two names provided -->
+    <Name>The Ritz-Carlton Riyadh</Name>
+    <Name>Ritz Riyadh</Name>
+    <Phone>+966 11 802 8020</Phone>
+    <Address>
+      <Number>Al Hada</Number>
+      <Street>Mecca Road</Street>
+      <City>Riyadh</City>
+      <State>Riyadh Province</State>
+      <Zip>11493</Zip>
+      <NearestAirport>King Khalid International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <!-- (3) Missing <Phone> element -->
+  <Hotel id="H003">
+    <Name>Hilton Riyadh Hotel & Residences</Name>
+    <Address>
+      <Number>6623</Number>
+      <Street>Eastern Ring Rd</Street>
+      <City>Riyadh</City>
+      <State>Riyadh Province</State>
+      <Zip>13211</Zip>
+      <NearestAirport>King Khalid International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <!-- (4) Unclosed Address tag -->
+  <Hotel id="H004" Rating="4.4">
+    <Name>Hyatt Regency Riyadh Olaya</Name>
+    <Phone>+966 11 288 1234</Phone>
+    <Phone>+966 11 288 1111</Phone>
+    <Address>
+      <Number>Olaya</Number>
+      <Street>King Fahd Branch Road</Street>
+      <City>Riyadh</City>
+      <State>Riyadh Province</State>
+      <Zip>12212</Zip>
+      <NearestAirport>King Khalid International Airport</NearestAirport>
+    <!-- Missing </Address> closing tag -->
+  </Hotel>
