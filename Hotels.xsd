@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  Hotels.xsd
-  Schema for CSE 445 Assignment 4 (Hotels directory)
 
-  Notes:
-  - Root element is <Hotels>.
-  - Each <Hotel> element must have a required "id" attribute.
-  - Each <Hotel> element may optionally have a "Rating" attribute (decimal).
-  - Child elements must appear in the specified order:
-      Name, Phone (one or more), Address
-  - Address is a complex element with Number, Street, City, State, Zip, NearestAirport.
--->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified">
@@ -39,7 +28,7 @@
                     <xs:element name="City" type="xs:string"/>
                     <xs:element name="State" type="xs:string"/>
                     <xs:element name="Zip" type="xs:string"/>
-                    <xs:element name="NearestAirport" type="xs:string"/>
+                    <xs:element name="NearestAirport" type="xs:string" use="required"/>
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
@@ -47,7 +36,7 @@
             </xs:sequence>
 
             <!-- Attributes for Hotel -->
-            <xs:attribute name="id" type="xs:string" use="required"/>
+            <!-- <xs:attribute name="id" type="xs:string" use="required"/> -->
             <!-- Optional rating attribute (decimal) -->
             <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
 
