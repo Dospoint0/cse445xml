@@ -7,6 +7,21 @@
 -->
 
 <Hotels>
+
+  <Hotel id="H000" rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address>
+      <Number>11</Number>
+      <Street>E.7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
   <Hotel id="H001" Rating="4.5">
     <Name>Four Seasons Hotel Riyadh</Name>
     <Phone>+966 11 211 5888</Phone>
@@ -136,19 +151,6 @@
       <City>Riyadh</City>
       <State>Riyadh Province</State>
       <Zip>12382</Zip>
-      <NearestAirport>King Khalid International Airport</NearestAirport>
-    </Address>
-  </Hotel>
-
-  <Hotel id="H011" Rating="4.7">
-    <Name>Voco Riyadh</Name>
-    <Phone>+966 11 457 9999</Phone>
-    <Address>
-      <Number>King Fahd Road</Number>
-      <Street>Next to Ministry of Interior</Street>
-      <City>Riyadh</City>
-      <State>Riyadh Province</State>
-      <Zip>11461</Zip>
       <NearestAirport>King Khalid International Airport</NearestAirport>
     </Address>
   </Hotel>
