@@ -35,7 +35,7 @@
   </Hotel>
 
   <Hotel id="H003">
-    <Name>Hilton Riyadh Hotel & Residences</Name>
+    <Name>Hilton Riyadh Hotel &amp; Residences</Name>
     <Phone>+966 11 234 6666</Phone>
     <Address>
       <Number>6623</Number>
