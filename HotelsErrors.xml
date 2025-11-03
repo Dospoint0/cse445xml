@@ -5,9 +5,10 @@
   Contains all 5 required schema/structure violations
 -->
 
-<Hotels>
-  <Hotel Rating="4.5">
+<Hotel>
+  <Hotel>
     <Name>Four Seasons Hotel Riyadh</Name>
+<Name>Four Seasons Riyadh</Name>
     <Phone>+966 11 211 5888</Phone>
     <Phone>+966 11 211 5000</Phone>
     <Address NearestAirport="King Khalid International Airport">
@@ -19,21 +20,8 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.6">
-    <Name>The Ritz-Carlton Riyadh</Name>
-    <Phone>+966 11 802 8020</Phone>
-    <Address NearestAirport="King Khalid International Airport">
-      <Number>Al Hada</Number>
-      <Street>Mecca Road</Street>
-      <City>Riyadh</City>
-      <State>Riyadh Province</State>
-      <Zip>11493</Zip>
-    </Address>
-  </Hotel>
-
   <Hotel>
     <Name>Hilton Riyadh Hotel &amp; Residences</Name>
-    <Phone>N/A</Phone>
     <Address NearestAirport="King Khalid International Airport">
       <Number>6623</Number>
       <Street>Eastern Ring Rd</Street>
@@ -53,6 +41,5 @@
       <City>Riyadh</City>
       <State>Riyadh Province</State>
       <Zip>12212</Zip>
-    </Address>
   </Hotel>
-</Hotels>
+</Hotel>
