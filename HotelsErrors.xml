@@ -35,11 +35,12 @@
     <Name>Hyatt Regency Riyadh Olaya</Name>
     <Phone>+966 11 288 1234</Phone>
     <Phone>+966 11 288 1111</Phone>
-    <Address NearestAirport="King Khalid International Airport">
+    <Address> 
       <Number>Olaya</Number>
       <Street>King Fahd Branch Road</Street>
       <City>Riyadh</City>
       <State>Riyadh Province</State>
       <Zip>12212</Zip>
+    </Address>
   </Hotel>
 </Hotel>
