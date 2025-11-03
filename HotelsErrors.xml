@@ -8,7 +8,7 @@
 <Hotel>
   <Hotel>
     <Name>Four Seasons Hotel Riyadh</Name>
-<Name>Four Seasons Riyadh</Name>
+    <Name>Four Seasons Riyadh</Name>
     <Phone>+966 11 211 5888</Phone>
     <Phone>+966 11 211 5000</Phone>
     <Address NearestAirport="King Khalid International Airport">
@@ -28,7 +28,6 @@
       <City>Riyadh</City>
       <State>Riyadh Province</State>
       <Zip>13211</Zip>
-    </Address>
   </Hotel>
 
   <Hotel Rating="4.4">
