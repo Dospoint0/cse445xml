@@ -1,10 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  Hotels.xml
-  Valid XML instance for CSE 445 Assignment 4
-  Contains 11 hotels in Riyadh, Saudi Arabia
-  Conforms to Hotels.xsd schema
--->
 
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
         xsi:noNamespaceSchemaLocation="https://dospoint0.github.io/cse445xml/Hotels.xsd">
